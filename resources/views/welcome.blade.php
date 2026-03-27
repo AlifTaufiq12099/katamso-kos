@@ -84,8 +84,79 @@
     </div>
 </section>
 
+<!-- Gallery Section -->
+<section id="galeri" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-base text-kos-green font-semibold tracking-wide uppercase">Galeri Foto</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Suasana Kos & Fasilitas
+            </p>
+            <p class="mt-4 max-w-2xl text-lg text-gray-500 mx-auto">
+                Lihat lebih dekat kenyamanan kamar, teras bersantai, dan fasilitas di Kos Kami.
+            </p>
+        </div>
+
+        <div x-data="{
+                activeSlide: 0,
+                slides: [
+                    { image: 'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/184/2024/03/03/FotoJet-1-2641113655.jpg', title: 'Suasana Kamar' },
+                    { image: 'https://idkos.com/images/gallery_property/standar-Q8Ywb1nAlb.jpeg', title: 'Teras Bersantai' },
+                    { image: 'https://static.mamikos.com/uploads/cache/data/style/2024-08-02/G3tPdsau-240x320.jpg', title: 'Fasilitas Umum' }
+                ],
+                next() {
+                    this.activeSlide = this.activeSlide === this.slides.length - 1 ? 0 : this.activeSlide + 1
+                },
+                prev() {
+                    this.activeSlide = this.activeSlide === 0 ? this.slides.length - 1 : this.activeSlide - 1
+                }
+            }" 
+            class="relative w-full max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl group">
+            
+            <!-- Slides -->
+            <div class="relative h-64 sm:h-80 md:h-96 lg:h-[30rem] w-full bg-gray-200">
+                <template x-for="(slide, index) in slides" :key="index">
+                    <div x-show="activeSlide === index" 
+                         x-transition:enter="transition ease-out duration-500"
+                         x-transition:enter-start="opacity-0 transform scale-105"
+                         x-transition:enter-end="opacity-100 transform scale-100"
+                         x-transition:leave="transition ease-in duration-300 absolute inset-0"
+                         x-transition:leave-start="opacity-100"
+                         x-transition:leave-end="opacity-0"
+                         class="absolute inset-0 w-full h-full">
+                        <img :src="slide.image" :alt="slide.title" class="w-full h-full object-cover">
+                        <!-- Caption Gradient -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end">
+                            <div class="p-8 w-full">
+                                <h3 x-text="slide.title" class="text-white text-2xl md:text-3xl font-bold"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button @click="prev()" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-white/30 hover:bg-white/50 text-white backdrop-blur-md transition-all opacity-0 group-hover:opacity-100 shadow-lg">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+            <button @click="next()" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-white/30 hover:bg-white/50 text-white backdrop-blur-md transition-all opacity-0 group-hover:opacity-100 shadow-lg">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+
+            <!-- Dots -->
+            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3">
+                <template x-for="(slide, index) in slides" :key="index">
+                    <button @click="activeSlide = index" 
+                            :class="{'w-8 bg-kos-green': activeSlide === index, 'w-2 bg-white/60 hover:bg-white': activeSlide !== index}" 
+                            class="h-2 rounded-full transition-all duration-300 shadow-sm"></button>
+                </template>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Rooms Section -->
-<section id="kamar" class="py-24 bg-white">
+<section id="kamar" class="py-24 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
             <h2 class="text-base text-kos-green font-semibold tracking-wide uppercase">Pilihan Kamar</h2>

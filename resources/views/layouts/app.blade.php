@@ -46,6 +46,7 @@
                     <div class="hidden md:flex items-center space-x-8">
                         <a href="#beranda" class="text-gray-600 hover:text-kos-green font-medium transition-colors">Beranda</a>
                         <a href="#fasilitas" class="text-gray-600 hover:text-kos-green font-medium transition-colors">Fasilitas</a>
+                        <a href="#galeri" class="text-gray-600 hover:text-kos-green font-medium transition-colors">Galeri</a>
                         <a href="#kamar" class="text-gray-600 hover:text-kos-green font-medium transition-colors">Tipe Kamar</a>
                         <a href="#kontak" class="text-gray-600 hover:text-kos-green font-medium transition-colors">Kontak</a>
                         <a href="#kamar" class="px-5 py-2.5 bg-kos-green hover:bg-kos-dark text-white rounded-full font-semibold transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">Booking Sekarang</a>
@@ -68,6 +69,7 @@
                 <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                     <a href="#beranda" @click="open = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-kos-green hover:bg-gray-50">Beranda</a>
                     <a href="#fasilitas" @click="open = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-kos-green hover:bg-gray-50">Fasilitas</a>
+                    <a href="#galeri" @click="open = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-kos-green hover:bg-gray-50">Galeri</a>
                     <a href="#kamar" @click="open = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-kos-green hover:bg-gray-50">Tipe Kamar</a>
                     <a href="#kontak" @click="open = false" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-kos-green hover:bg-gray-50">Kontak</a>
                 </div>
@@ -99,6 +101,7 @@
                         <ul class="space-y-3">
                             <li><a href="#beranda" class="text-gray-400 hover:text-kos-green transition-colors">Beranda</a></li>
                             <li><a href="#fasilitas" class="text-gray-400 hover:text-kos-green transition-colors">Fasilitas</a></li>
+                            <li><a href="#galeri" class="text-gray-400 hover:text-kos-green transition-colors">Galeri</a></li>
                             <li><a href="#kamar" class="text-gray-400 hover:text-kos-green transition-colors">Tipe Kamar</a></li>
                             <li><a href="#kontak" class="text-gray-400 hover:text-kos-green transition-colors">Kontak</a></li>
                         </ul>
