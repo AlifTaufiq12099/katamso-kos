@@ -134,7 +134,7 @@
                     </ul>
                 </div>
                 <div class="p-8 pt-0 mt-auto">
-                    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20booking%20kamar%20%2A%2ATipe%20Biasa%2A%2A.%20Apakah%20masih%20tersedia%3F" target="_blank" class="block w-full text-center px-6 py-3 bg-white border-2 border-kos-green text-kos-green hover:bg-kos-green hover:text-white rounded-xl font-bold transition-all duration-300">
+                    <a href="https://wa.me/6282287191389?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20booking%20kamar%20%2A%2ATipe%20Biasa%2A%2A.%20Apakah%20masih%20tersedia%3F" target="_blank" class="block w-full text-center px-6 py-3 bg-white border-2 border-kos-green text-kos-green hover:bg-kos-green hover:text-white rounded-xl font-bold transition-all duration-300">
                         Chat WhatsApp
                     </a>
                 </div>
@@ -177,7 +177,7 @@
                     </ul>
                 </div>
                 <div class="p-8 pt-0 mt-auto">
-                    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20booking%20kamar%20%2A%2ATipe%20Kipas%2A%2A.%20Apakah%20masih%20tersedia%3F" target="_blank" class="block w-full text-center px-6 py-3 bg-kos-green text-white hover:bg-kos-dark rounded-xl font-bold transition-all duration-300 shadow-lg shadow-kos-green/40">
+                    <a href="https://wa.me/6282287191389?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20booking%20kamar%20%2A%2ATipe%20Kipas%2A%2A.%20Apakah%20masih%20tersedia%3F" target="_blank" class="block w-full text-center px-6 py-3 bg-kos-green text-white hover:bg-kos-dark rounded-xl font-bold transition-all duration-300 shadow-lg shadow-kos-green/40">
                         Chat WhatsApp
                     </a>
                 </div>
@@ -217,7 +217,7 @@
                     </ul>
                 </div>
                 <div class="p-8 pt-0 mt-auto">
-                    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20booking%20kamar%20%2A%2ATipe%20AC%2A%2A.%20Apakah%20masih%20tersedia%3F" target="_blank" class="block w-full text-center px-6 py-3 bg-white border-2 border-kos-green text-kos-green hover:bg-kos-green hover:text-white rounded-xl font-bold transition-all duration-300">
+                    <a href="https://wa.me/6282287191389?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20booking%20kamar%20%2A%2ATipe%20AC%2A%2A.%20Apakah%20masih%20tersedia%3F" target="_blank" class="block w-full text-center px-6 py-3 bg-white border-2 border-kos-green text-kos-green hover:bg-kos-green hover:text-white rounded-xl font-bold transition-all duration-300">
                         Chat WhatsApp
                     </a>
                 </div>
@@ -239,7 +239,7 @@
         <p class="text-xl text-green-100 mb-10">
             Jangan sungkan untuk menghubungi kami. Tim kami siap membantu mencarikan kamar terbaik yang sesuai dengan kebutuhan Anda.
         </p>
-        <a href="https://wa.me/6281234567890" target="_blank" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-kos-dark bg-white hover:bg-gray-100 transition-colors shadow-xl">
+        <a href="https://wa.me/6282287191389" target="_blank" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-kos-dark bg-white hover:bg-gray-100 transition-colors shadow-xl">
             <svg class="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
             Tanya Via WhatsApp
         </a>
