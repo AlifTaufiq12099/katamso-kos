@@ -23,6 +23,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
+        "ASSET_URL": "/",
         "CACHE_STORE": "file",
         "SESSION_DRIVER": "file",
         "QUEUE_CONNECTION": "sync",
