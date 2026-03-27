@@ -147,7 +147,7 @@
                 </div>
                 <div class="h-48 bg-gray-200 relative z-10">
                     <div class="w-full h-full bg-gradient-to-br from-green-100 to-green-300 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-kos-green/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                        <img src="https://idkos.com/images/gallery_property/standar-Q8Ywb1nAlb.jpeg" alt="Tipe Biasa" class="w-full h-full object-cover" >
                     </div>
                 </div>
                 <div class="p-8 flex-grow">
@@ -187,7 +187,7 @@
             <div class="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                 <div class="h-48 bg-gray-200 relative">
                     <div class="w-full h-full bg-gradient-to-br from-gray-100 to-gray-300 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        <img src="https://static.mamikos.com/uploads/cache/data/style/2024-08-02/G3tPdsau-240x320.jpg" alt="Tipe Biasa" class="w-full h-full object-cover" >
                     </div>
                 </div>
                 <div class="p-8 flex-grow">
